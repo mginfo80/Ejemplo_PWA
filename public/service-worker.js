@@ -6,25 +6,7 @@ const CACHE_NAME = 'static-cache-v1';
 // CODELAB: Add list of files to cache here.
 const FILES_TO_CACHE = [
     '/offline.html',
-    '/index.html',
-    '/Character.js',
-    '/Entity.js',
-    '/game.css',
-    '/Game.js',
-    '/main.js',
-    '/Opponent.js',
-    '/Player.js',
-    '/Shot.js',
-    '/assets/bueno_muerto.png',
-    '/assets/bueno.png',
-    '/assets/game_over.png',
-    '/assets/jefe_muerto.png',
-    '/assets/jefe.js',
-    '/assets/malo_muerto.png',
-    '/assets/malo.png',
-    '/assets/shot1.png',
-    '/assets/shot2.png',
-    '/assets/you_win.png'
+    '/index.html'
 ];
 
 self.addEventListener('install', (evt) => {
